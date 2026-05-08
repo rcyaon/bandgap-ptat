@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "multi-stage ring oscillator"      # Project title
+  title:        "Bandgap Reference & PTAT Sensor"      # Project title
   author:       "Lena Araujo"      # Your name
   discord:      "lenafobia"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "ring oscillator and other stuff"      # One line description of what your project does
+  description:  "1.2V Brokaw bandgap voltage reference with PTAT temperature readout"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -19,7 +19,14 @@ project:
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
-    - "project.v"
+    - "bansen.sch"
+    - "bansen.sym"
+    - "ptat.sch"
+    - "ptat.sym"
+    - "sumamp.sch"
+    - "sumamp.sym"
+    - "ota.sch"
+    - "ota.sym"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
@@ -55,8 +62,8 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: ""
-  ua[1]: ""
+  ua[0]: "VREF - 1.2V bandgap reference output"
+  ua[1]: "IPTAT - PTAT current mirror bias output"
   ua[2]: ""
   ua[3]: ""
   ua[4]: ""
