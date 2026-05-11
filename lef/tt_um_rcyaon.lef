@@ -417,12 +417,18 @@ MACRO tt_um_rcyaon
   SIZE 161 BY 225.76 ;
   PROPERTY CatenaDesignType "mixed" ;
 
+MACRO tt_um_rcyaon
+  ORIGIN 0 0 ;
+  FOREIGN tt_um_rcyaon 0 0 ;
+  SIZE 161 BY 225.76 ;
+  PROPERTY CatenaDesignType "mixed" ;
+
   PIN VDPWR
     DIRECTION INOUT ;
     USE POWER ;
     PORT
       LAYER met4 ;
-      RECT 0 0 10 225.76 ;
+      RECT 1 5 3 220.76 ;
     END
   END VDPWR
 
@@ -431,7 +437,7 @@ MACRO tt_um_rcyaon
     USE GROUND ;
     PORT
       LAYER met4 ;
-      RECT 0 0 10 225.76 ;
+      RECT 4 5 6 220.76 ;
     END
   END VGND
 
