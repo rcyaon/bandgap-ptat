@@ -11,4 +11,3 @@ Apply 1.8V VDD and measure ua[5] (Vref). Expected output is ~1.2-1.3V. Sweep tem
 ## External hardware
 
 None.
-ut.com](https://bsky.app/profile/tinytapeout.com)
