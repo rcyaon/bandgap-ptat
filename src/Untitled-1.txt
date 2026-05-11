@@ -1,3 +1,0 @@
-cp ~/.xschem/simulations/ptat.spice /foss/designs/ptat.sch.spice
-
-netgen -batch lvs "/foss/designs/ptat.spice ptat" "/foss/designs/ptat.sch.spice ptat" /foss/pdks/ciel/sky130/versions/d400e26845538beaeb7cc5fdb9bfc06c30ea27cb/sky130A/libs.tech/netgen/sky130A_setup.tcl
