@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Bandgap Reference & PTAT Sensor"      # Project title
+  title:        "bandgap-ptat"      # Project title
   author:       "rcyaon"      # Your name
   discord:      "lenafobia"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "1.2V Brokaw bandgap voltage reference with PTAT temperature readout"      # One line description of what your project does
