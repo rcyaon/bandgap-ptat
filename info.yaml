@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "Bandgap Reference & PTAT Sensor"      # Project title
-  author:       "Lena Araujo"      # Your name
+  author:       "rcyaon"      # Your name
   discord:      "lenafobia"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "1.2V Brokaw bandgap voltage reference with PTAT temperature readout"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
@@ -19,14 +19,7 @@ project:
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
-    - "bansen.sch"
-    - "bansen.sym"
-    - "ptat.sch"
-    - "ptat.sym"
-    - "sumamp.sch"
-    - "sumamp.sym"
-    - "ota.sch"
-    - "ota.sym"
+    - "project.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
