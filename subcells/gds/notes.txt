@@ -1,5 +1,0 @@
-when importing into magic, ports must be relabeled
-
-an example:
-label VDD
-make port 
