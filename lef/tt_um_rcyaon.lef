@@ -6,7 +6,7 @@ MACRO tt_um_rcyaon
   CLASS BLOCK ;
   FOREIGN tt_um_rcyaon ;
   ORIGIN 0.000 0.000 ;
-  SIZE 161.000 BY 225.770 ;
+  SIZE 161.000 BY 225.760 ;
   PIN VGND
     USE GROUND ;
     PORT
@@ -82,7 +82,7 @@ MACRO tt_um_rcyaon
     END
   END VGND
   PIN VDPWR
-    ANTENNADIFFAREA 9.094600 ;
+    USE POWER ;
     PORT
       LAYER nwell ;
         RECT 71.865 41.730 77.035 46.960 ;
