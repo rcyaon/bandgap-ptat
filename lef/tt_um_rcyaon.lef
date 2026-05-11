@@ -435,14 +435,14 @@ MACRO tt_um_rcyaon
     END
   END VGND
 
-  PIN ua[0]
+  PIN ua[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER met4 ;
       RECT 55.21 0 56.11 1 ;
     END
-  END ua[0]
+  END ua[5]
 
 END tt_um_rcyaon
 
