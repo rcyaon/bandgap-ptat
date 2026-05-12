@@ -6,11 +6,11 @@ A Brokaw bandgap reference using SKY130 PNP BJTs. A PTAT current generator feeds
 
 ## Brokaw topology
 
-A bandgap reference cancels two opposing temperature behaviors: V_BE drops with temperature, while $V_T = kT/q$ rises. Summed in the right ratio, they produce a stable ~1.2 V output tied to the silicon bandgap.[^1]
+A bandgap reference cancels two opposing temperature behaviors: $V_{BE}$ drops with temperature, while $V_T = kT/q$ rises. Summed in the right ratio, they produce a stable ~1.2 V output tied to the silicon bandgap.[^1]
 
-The PTAT correction current is set by two BJTs biased at 8:1, producing $\Delta V_{BE} = V_T \cdot \ln(n)$ across R1. The ratio R2/R1 scales this to cancel the linear drift of V_BE at the output:[^2]
+The PTAT correction current is set by two BJTs biased at 8:1, producing $\Delta V_{BE} = V_T \cdot \ln(n)$ across $R_1$. The ratio $R_2/R_1$ scales this to cancel the linear drift of $V_{BE}$ at the output:[^2]
 
-$$V_{REF} = V_{BE} + (R2/R1) \cdot \Delta V_{BE}$$
+$$V_{REF} = V_{BE} + (R_2/R_1) \cdot \Delta V_{BE}$$
 
 This summation is performed by an OTA-based summing amplifier, which also closes the feedback loop to stabilize the operating point. A PTAT curvature correction current is then injected to flatten the remaining log-term curvature.[^3] 
 
