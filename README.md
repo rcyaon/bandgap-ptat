@@ -4,7 +4,7 @@
 
 A Brokaw bandgap reference using SKY130 PNP BJTs. A PTAT current generator feeds a summing amplifier with OTA feedback to produce a stable ~1.2V reference voltage.
 
-## Brokaw Topology
+## Brokaw topology
 
 A bandgap reference cancels two opposing temperature behaviors: V_BE drops with temperature, while $V_T = kT/q$ rises. Summed in the right ratio, they produce a stable ~1.2 V output tied to the silicon bandgap.[^1]
 
