@@ -18,6 +18,6 @@ This topology suits SKY130's imprecise, low-β PNPs (β = 10–20) because accur
 
 [^1]: Brokaw — "A simple three-terminal IC bandgap reference," IEEE JSSC, 1974
 
-[^2]: Razavi — *Design of Analog CMOS Integrated Circuits*, 2nd ed. (2016), Ch. 11
+[^2]: Razavi — *Design of Analog CMOS Integrated Circuits,* 2016
 
 [^3]: Banba et al. — "A CMOS bandgap reference circuit with sub-1-V operation," IEEE JSSC, 1999
