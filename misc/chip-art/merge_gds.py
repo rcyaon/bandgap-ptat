@@ -9,6 +9,6 @@ my_lib.add(chip_art_cell)
 my_top = my_lib.top_level()[0]
 
 # Offset by (6, 76) 
-my_top.add(gdstk.Reference(chip_art_cell, origin=(36, 100)))
+my_top.add(gdstk.Reference(chip_art_cell, origin=(36, 200)))
 
-my_lib.write_gds("tt_um_rcyaon_with_art.gds")
+my_lib.write_gds("tt_um_rcyaon.gds")
